@@ -7,7 +7,7 @@ swoole-java-client(use netty 4)
 
 重构的部分基本照抄了 [NettyRpc](https://github.com/luxiaoxun/NettyRpc) 在此感谢。
 
- [NettyRpc](https://github.com/luxiaoxun/NettyRpc) 对于新手而言，很容易理解和上手，当时重构的时候准备参照 Dubbo ，但是 Dubbo 使用的是 Netty3，和 Netty 4 的差异太大，然后正好看到了 NettyRpc 这个项目，发现非常适合当时的情况，于是就花了点时间改造成现在的样子了，再次感谢 NettyRpc 。
+ [NettyRpc](https://github.com/luxiaoxun/NettyRpc) 对于新手而言，很容易理解和上手，当时重构的时候准备参照 Dubbo ，但是 Dubbo 使用的是 Netty3，和 Netty 4 的差异太大，而且 Dubbo 太复杂了，然后正好看到了 NettyRpc 这个项目，发现非常适合当时的情况，于是就花了点时间改造成现在的样子了，再次感谢 NettyRpc 。
  
  目前能够在生产环境中稳定运行，不过代码还是比较糟糕的。
  
